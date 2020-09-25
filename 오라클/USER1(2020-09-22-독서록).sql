@@ -32,6 +32,8 @@ VALUES(SEQ_BOOKS.NEXTVAL, '오라클데이터베이스', '이지훈', '이지스
 
 commit;
 
+DELETE FROM tbl_books WHERE seq=7;
+
 DELETE FROM tbl_books;
 
 commit;
