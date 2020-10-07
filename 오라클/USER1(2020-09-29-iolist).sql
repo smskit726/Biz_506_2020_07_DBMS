@@ -25,4 +25,6 @@ seq, io_date, io_time, io_pname, io_input, io_price, io_quan, io_total
 seq_iolist.NEXTVAL, '2020-04-01', '15:23:12', '카디건', '1', 59000, 10, 590000
 );
 
+DELETE tbl_iolist WHERE seq=5;
+
 commit;
