@@ -20,4 +20,7 @@ SELECT * FROM tbl_ems;
 
 DELETE FROM tbl_ems;
 
+INSERT INTO tbl_ems(id, FROM_EMAIL, TO_EMAIL, S_DATE, S_TIME, S_SUBJECT, S_CONTENT)
+VALUES (SEQ_EMS.NEXTVAL, 'smskit726@gmail.com', 'callor@callor.com', '2020-10-29', '10:43:13', '제목', '내용');
+
 commit;
